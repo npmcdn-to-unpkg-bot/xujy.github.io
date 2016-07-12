@@ -1,6 +1,13 @@
 body {
   padding-top: 25px;
+  margin-bottom: 60px;
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 .block1 {
   padding: 40px 15px;
   text-align: center;
@@ -18,4 +25,10 @@ body {
 	display: table;
 	vertical-align: middle;
 	padding-top: 7.5%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
