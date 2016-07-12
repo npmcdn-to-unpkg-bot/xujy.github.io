@@ -8,6 +8,10 @@ html {
   min-height: 100%;
 }
 
+.navbar-default {
+    /*background-color: #2ecc71;*/
+}
+
 .block1 {
   padding: 40px 15px;
   text-align: center;
