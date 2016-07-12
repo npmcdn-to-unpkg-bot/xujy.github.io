@@ -15,7 +15,7 @@ body {
 }
 
 .textContainer {
-	display: inline-block;
-  vertical-align: middle;
-  float: none;
+	display: table;
+	vertical-align: middle;
+	padding-top: 7.5%;
 }
