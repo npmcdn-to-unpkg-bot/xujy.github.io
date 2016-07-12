@@ -3,11 +3,6 @@ body {
   margin-bottom: 60px;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 .navbar-default {
     /*background-color: #2ecc71;*/
 }
