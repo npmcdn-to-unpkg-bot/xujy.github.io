@@ -1,0 +1,21 @@
+body {
+  padding-top: 25px;
+}
+.block1 {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.dormButtons {
+	width: 150px;
+}
+
+.dormButtonGrid {
+	padding: 5px;
+}
+
+.textContainer {
+	display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
