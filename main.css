@@ -4,12 +4,19 @@ body {
 }
 
 h1 {
-  font-family:'Kaushan Script', cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 50pt;
+  font-family:font-family: 'Varela', sans-serif;
+}
+
+p {
+  font-size: 15pt;
 }
 
 .navbar-default {
     /*background-color: #2ecc71;*/
-    font-family:'Kaushan Script', cursive;
+    font-family:'Kaushan Script', sans-serif;
     background-color: #16d465;
     color: white;
 }
@@ -24,14 +31,21 @@ footer{
   }
 
 .block1 {
-  padding: 20px 20px;
+  padding-top: 10;
   text-align: center;
+}
+
+.block2 {
+  text-align: left;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav li a {
   color: white;
 }
 
+.navbar-default .navbar-nav li a {
+  font-family: 'Varela', sans-serif;
+}
 
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -45,7 +59,7 @@ footer{
 }
 
 .dormButtonGrid {
-	padding: 10px;
+	padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -53,7 +67,9 @@ footer{
 	display: table;
 	vertical-align: middle;
 	padding-top: 7.5%;
+
 }
+
 
 .footer {
   position: absolute;
