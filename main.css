@@ -18,6 +18,7 @@ p {
   font-size: 15pt;
 }
 
+
 .navbar-default {
     /*background-color: #2ecc71;*/
     font-family:'Kaushan Script', sans-serif;
@@ -30,9 +31,7 @@ footer{
   text-align: center;
 }
 
-.jumbotron{
- 
-  }
+
 
 .block1 {
   padding-top: 10;
