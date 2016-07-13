@@ -3,13 +3,19 @@ body {
   margin-bottom: 60px;
 }
 
-h1 {
+#main-heading {
   padding-top: 110px;
   padding-bottom: 20px;
-  font-size: 90pt;
+  font-size: 40pt;
   font-family: 'Oswald', sans-serif;
   color: white;
   text-shadow: 0 0 10px rgba(0,0,0,2);
+}
+
+@media (min-width: 500px) {
+  #main-heading {
+    font-size: 80pt;
+  }
 }
 
 h3 {
@@ -92,12 +98,10 @@ footer{
 
 .dormButtons {
 	width: 200px;
-
 }
 
 .dormButtonGrid {
-	padding-top: 50px;
-  padding-bottom: 50px;
+  padding:5px;
 }
 
 .textContainer {
