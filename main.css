@@ -3,21 +3,50 @@ body {
   margin-bottom: 60px;
 }
 
-.navbar-default {
-    /*background-color: #2ecc71;*/
+h1 {
+  font-family:'Kaushan Script', cursive;
 }
 
-.block1 {
-  padding: 40px 15px;
+.navbar-default {
+    /*background-color: #2ecc71;*/
+    font-family:'Kaushan Script', cursive;
+    background-color: #16d465;
+    color: white;
+}
+
+footer{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: center;
 }
 
+.jumbotron{
+ 
+  }
+
+.block1 {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav li a {
+  color: white;
+}
+
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  text-shadow: 0 0 15px white;
+}
+
 .dormButtons {
-	width: 150px;
+	width: 200px;
+
 }
 
 .dormButtonGrid {
-	padding: 5px;
+	padding: 10px;
+  padding-bottom: 50px;
 }
 
 .textContainer {
