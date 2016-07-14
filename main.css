@@ -15,12 +15,16 @@ body {
 
 @media (min-width: 500px) {
   #main-heading {
-    font-size: 80pt;
+    font-size: 70pt;
   }
+
+
 }
 
 h3 {
 color: #16d465;
+font-family: 'Oswald', sans-serif;
+font-size: 50pt;
 }
 
 p {
@@ -46,6 +50,7 @@ p {
 
 #text-body {
   padding-top: 50px;
+  height: 100vh;
 }
 
 #main-cover {
@@ -58,6 +63,7 @@ p {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+  height: 100vh;
 
   padding-top: 100px;
   padding-bottom: 135px ;
@@ -104,7 +110,7 @@ footer{
 .textContainer {
 	display: table;
 	vertical-align: middle;
-	padding-top: 7.5%;
+
 
 }
 
