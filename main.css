@@ -11,6 +11,7 @@ body {
   color: white;
   text-shadow: 0 0 10px rgba(0,0,0,2);
   opacity:0;
+  text-align: center;
 }
 
 @media (min-width: 500px) {
@@ -101,6 +102,15 @@ footer{
 
 .dormButtons {
 	width: 200px;
+ 
+
+
+}
+
+.headerButtons {
+  width: 300px;
+
+ 
 }
 
 .dormButtonGrid {
@@ -110,12 +120,39 @@ footer{
 .textContainer {
 	display: table;
 	vertical-align: middle;
-
-
 }
+
+
+.headerbuttonGrid {
+  padding-top: 25px;
+}
+
+.btn-round{
+  border-radius: 30px;
+}
+
+.btn{
+  font-family:'Oswald',sans-serif;
+  background-color: #16d465;
+  border-color: white;
+  color: white;
+  border-color: #16d465;
+}
+
+.btn:hover{
+   font-family:'Oswald', sans-serif;
+   border-color: #16d465;
+   color: #16d465;
+   background-color: white;
+}
+
+
+
+
 
 
 .footer {
   position: absolute;
   bottom: 0;
+  text-align: center;
 }
