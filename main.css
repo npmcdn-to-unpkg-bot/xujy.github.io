@@ -5,8 +5,6 @@ body {
   height: 100%;
 }
 
-
-
 #main-heading {
   padding-top: 110px;
   padding-bottom: 20px;
@@ -23,9 +21,6 @@ body {
   #main-heading {
     font-size: 70pt;
   }
-
-
-
 }
 
 h3 {
@@ -52,15 +47,13 @@ p {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     background: black;
     
-  }
+}
 
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  height: 110vh;
-
 }
 
 .coming-soon {
@@ -69,7 +62,6 @@ p {
 
 #text-body {
   padding-top: 50px;
-
 }
 
 #main-cover {
@@ -93,10 +85,9 @@ p {
 .row { 
   margin-right: -15px;
   margin-left: -15px;
-  }
+}
 
-footer{
-  
+footer {  
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: center;
 }
@@ -125,10 +116,7 @@ footer{
 }
 
 .headerButtons {
-
-  width: 250px;
-
- 
+  width: 250px; 
 }
 
 .dormButtonGrid {
@@ -142,7 +130,6 @@ footer{
 
 
 .headerbuttonGrid {
-
   padding: 4px;
 }
 
@@ -197,17 +184,13 @@ footer{
 }
 
 span.glyphicon-chevron-down {
-    
-    padding-top: 15px;
-    padding-left: 12.5px;
-    font-size: 12em;
-    color:white;
-    display:block;
-    text-transform: right 5px;
-    text-shadow: 0 0 5px white;
-
-    
-
+  padding-top: 15px;
+  padding-left: 12.5px;
+  font-size: 11em;
+  color:'gray';
+  display:block;
+  text-transform: right 5px;
+  text-shadow: 0 0 5px 'gray';
 }
 
 /*.scroll-alert {
@@ -228,4 +211,4 @@ span.glyphicon-chevron-down {
   position: absolute;
   bottom: 0;
   text-align: center;
-}*/
+}*/*/*/
