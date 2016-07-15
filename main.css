@@ -84,7 +84,7 @@ p {
   height: 100vh;
 
   padding-top: 100px;
-  padding-bottom: 135px ;
+  
   text-align: center;
 }
 
@@ -202,7 +202,7 @@ footer{
   font-family: 'Oswald', sans-serif;
   color: white;
   position: relative;
-  bottom: 0;
+  bottom: 0px;
 
 }
 
