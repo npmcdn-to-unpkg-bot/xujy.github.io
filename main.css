@@ -19,14 +19,6 @@ body {
 }
 
 
-}
-
-#announcement {
-  padding: 50px;
-  text-align: center;
-  color: #16d465;
-}
-
 @media (min-width: 500px) {
   #main-heading {
     font-size: 70pt;
@@ -68,6 +60,10 @@ p {
   margin-left: auto;
   height: 110vh;
 
+}
+
+.coming-soon {
+  height:100%;
 }
 
 #text-body {
@@ -191,6 +187,25 @@ footer{
 #buttonGroup {
   padding-top: 50px;
 }
+
+#announcement {
+  padding: 50px;
+  text-align: center;
+  color: #16d465;
+}
+
+
+
+.scroll-alert {
+  font-size: 20pt;
+  
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  position: relative;
+  bottom: 0;
+
+}
+
 
 
 
