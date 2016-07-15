@@ -21,6 +21,14 @@ body {
   #main-heading {
     font-size: 70pt;
   }
+  /**************** Positions footer at bottom only when not mobile
+  /**************** Need to change this if the page becomes longer on desktop view */
+  .footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    text-align:center;
+  }
 }
 
 h3 {
