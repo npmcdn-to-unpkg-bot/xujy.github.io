@@ -27,11 +27,17 @@ body {
     position: absolute;
     bottom:0;
     padding-top:7.5px;
-    background-color: #f5f5f5;
+ 
   }
 }
 
+#footer-home {
+  padding-top: 7.5px;
+  text-align: center;
+}
+
 .footer {
+
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   width:100%;
   text-align:center;
@@ -45,7 +51,7 @@ font-size: 50pt;
 }
 
 p {
-  font-size: 25pt;
+  font-size: 20pt;
 }
 
 
@@ -126,7 +132,7 @@ p {
 }
 
 .headerButtons {
-  width: 250px; 
+  width: 200px; 
 }
 
 .dormButtonGrid {
@@ -184,13 +190,13 @@ p {
 }
 
 #buttonGroup {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 #announcement {
-  padding: 50px;
+  padding: 20px;
   text-align: center;
-  color: #16d465;
+  color: #f1c40f;
 }
 
 span.glyphicon-chevron-down {
@@ -203,15 +209,10 @@ span.glyphicon-chevron-down {
   text-shadow: 0 0 5px 'gray';
 }
 
-/*.scroll-alert {
-  font-size: 20pt;
-  
-  font-family: 'Oswald', sans-serif;
-  color: black;
-  position: relative;
-  bottom: 0px;
 
-}*/
+#notice {
+  color:#f1c40f;
+}
 
 
 
