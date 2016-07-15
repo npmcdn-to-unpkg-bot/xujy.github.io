@@ -2,7 +2,10 @@ body {
   padding-top: 25px;
   margin-bottom: 60px;
   overflow-x: hidden;
+  height: 100%;
 }
+
+
 
 #main-heading {
   padding-top: 110px;
@@ -13,6 +16,15 @@ body {
   text-shadow: 0 0 10px rgba(0,0,0,2);
   opacity:0;
   text-align: center;
+}
+
+
+}
+
+#announcement {
+  padding: 50px;
+  text-align: center;
+  color: #16d465;
 }
 
 @media (min-width: 500px) {
@@ -30,7 +42,7 @@ font-size: 50pt;
 }
 
 p {
-  font-size: 15pt;
+  font-size: 25pt;
 }
 
 
@@ -44,16 +56,23 @@ p {
     height: 50px;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    background: black;
+    
+  }
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  height: 110vh;
+
 }
 
 #text-body {
   padding-top: 50px;
-  height: 100vh;
+
 }
 
 #main-cover {
@@ -79,7 +98,7 @@ p {
   }
 
 footer{
-  padding-top: 50px;
+  
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: center;
 }
@@ -109,7 +128,7 @@ footer{
 
 .headerButtons {
 
-  width: 200px;
+  width: 250px;
 
  
 }
@@ -148,9 +167,29 @@ footer{
    background-color: white;
 }
 
+#three60graphic {
+  font-family: 'Londrina Solid', cursive;
+  color:#f1c40f;
+  font-size: 150pt;
+  text-align: center;
+}
+
 #home-info {
 
-  padding-top: 10%;
+  padding-top: 15%;
+}
+
+#bottom-info {
+  padding-top:15%;
+  padding-bottom:15%;
+}
+
+#center-text {
+  text-align: center;
+}
+
+#buttonGroup {
+  padding-top: 50px;
 }
 
 
