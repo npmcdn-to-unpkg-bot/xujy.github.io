@@ -65,9 +65,8 @@ p {
     height: 50px;
 }
 
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    background: black;
-    
+.dropdown-menu > li > a{
+    background-color: black;
 }
 
 .container {
