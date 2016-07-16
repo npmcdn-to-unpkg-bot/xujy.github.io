@@ -112,9 +112,12 @@ p {
   text-align: left;
 }
 
+
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav li a {
   color: white;
 }
+
+
 
 .navbar-default .navbar-nav li a {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -156,9 +159,9 @@ p {
 .btn{
   font-family:'Oswald',sans-serif;
   background-color: #16d465;
-  border-color: white;
-  color: white;
   border-color: #16d465;
+  color: white;
+
 }
 
 .btn:hover {
@@ -166,6 +169,24 @@ p {
    border-color: #16d465;
    color: #16d465;
    background-color: white;
+}
+
+
+.btn-back {
+
+  font-family:'Oswald',sans-serif;
+  background-color: #f1c40f;
+  border-color: white;
+  color: white;
+
+}
+
+.btn-back:hover {
+
+  font-family:'Oswald',sans-serif;
+  background-color: white;
+  border-color: #f1c40f;
+  color: #f1c40f;
 }
 
 #three60graphic {
@@ -230,6 +251,7 @@ span.glyphicon-chevron-down {
   text-align:center;
   font-size:16px;
   border-radius: 5px;
+  padding-top: 20px;
 }
 
 .teammate-desc p {
@@ -247,6 +269,9 @@ span.glyphicon-chevron-down {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
 }
+
+div#preload { display: none; }
+
 
 /*.footer {
   position: absolute;
