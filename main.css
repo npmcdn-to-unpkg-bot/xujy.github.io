@@ -214,12 +214,41 @@ span.glyphicon-chevron-down {
   color:#f1c40f;
 }
 
+.grid-item {
+  float: left;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  width: 215px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding:0;
+  border-radius:5px;
+}
 
+.teammate-name {
+  padding: 5px;
+  text-align:center;
+  font-size:16px;
+  /*background-color: #ecf0f1;*/
+  border-radius: 5px;
+}
 
+.teammate-desc p {
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
+.grid-item img {
+  width:100%;
+}
+
+#pins {
+  margin: auto;
+}
 
 /*.footer {
   position: absolute;
   bottom: 0;
   text-align: center;
-}*/*/*/
+}*/
