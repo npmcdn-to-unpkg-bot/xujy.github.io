@@ -238,10 +238,10 @@ span.glyphicon-chevron-down {
 .grid-item {
   float: left;
   border: 2px solid hsla(0, 0%, 0%, 0.5);
-  width: 200px;
+  width: 250px;
   margin-top: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding:0;
   border-radius:5px;
 }
@@ -252,12 +252,20 @@ span.glyphicon-chevron-down {
   font-size:16px;
   border-radius: 5px;
   padding-top: 20px;
+  color: #16d465;
+}
+
+.teammate-role {
+
+color: #f1c40f;
+text-align:center;
 }
 
 .teammate-desc p {
   font-size: 12px;
   padding-left: 5px;
   padding-right: 5px;
+  text-align: center;
 }
 
 .grid-item img {
