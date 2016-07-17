@@ -113,8 +113,14 @@ p {
 }
 
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav li a {
+.navbar-default .navbar-brand {
+  color:white;
+  padding-left: 0px
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav li a {
   color: white;
+
 }
 
 
@@ -127,6 +133,15 @@ p {
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
   text-shadow: 0 0 15px white;
+}
+
+
+.brand{
+  padding-right: 10px;
+  height: 25px;
+  width: auto;
+
+
 }
 
 .dormButtons {
