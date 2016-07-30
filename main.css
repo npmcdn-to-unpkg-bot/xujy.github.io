@@ -55,6 +55,7 @@ font-size: 50pt;
 
 p {
   font-size: 20pt;
+  color: grey;
 }
 
 
@@ -314,4 +315,17 @@ div#preload { display: none; }
 background-color: black;
 opacity: .5;
 }
+}
+
+.p-image {
+height: 350px;
+width: auto;
+}
+
+.btn-hg {
+  padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+
+
 }
